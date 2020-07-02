@@ -1,0 +1,131 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-8549fd"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Cxpu3x"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2f8be847d3",
+      "name": "node-523a",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-V5sVQW"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "aa60284e8b",
+      "name": "node-596e",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Giphy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ReHkLM"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-8549fd",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-8549fd",
+      "flow": "skills/choice-8549fd.flow.json",
+      "next": [
+        {
+          "caption": "User picked [bad]",
+          "condition": "temp['skill-choice-ret-eczw40qksk'] == \"bad\"",
+          "node": "node-596e"
+        },
+        {
+          "caption": "User picked [good]",
+          "condition": "temp['skill-choice-ret-eczw40qksk'] == \"good\"",
+          "node": "node-523a"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "562523cf60",
+      "name": "Giphy",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-428778"
+        }
+      ],
+      "onEnter": [
+        "displayRandomGif {\"name\":\"\",\"value\":\"\"}"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-428778",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-428778",
+      "flow": "skills/choice-428778.flow.json",
+      "next": [
+        {
+          "caption": "User picked [no]",
+          "condition": "temp['skill-choice-ret-vocyrr5gat'] == \"no\"",
+          "node": "RepeatNewGif"
+        },
+        {
+          "caption": "User picked [yes]",
+          "condition": "temp['skill-choice-ret-vocyrr5gat'] == \"yes\"",
+          "node": "node-523a"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "a6a2d7eb00",
+      "name": "RepeatNewGif",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Giphy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-du4502"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "botpress-jovibot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:loopmode/botpress-jovibot.git",
+  "author": "Jovica Aleksic <jovica.aleksic@etecture.de>",
+  "license": "MIT",
+  "scripts": {
+    "tar": "sh tar.sh",
+    "clean": "rm -f ./*.tgz"
+  }
+}

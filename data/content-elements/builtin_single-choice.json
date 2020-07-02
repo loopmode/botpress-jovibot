@@ -1,0 +1,61 @@
+[
+  {
+    "id": "builtin_single-choice--RnB07",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "gut",
+          "value": "gut"
+        },
+        {
+          "title": "naja",
+          "value": "naja"
+        },
+        {
+          "title": "schlecht",
+          "value": "schlecht"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Wie geht's?",
+      "text$de": "How are you today?",
+      "choices$de": [
+        {
+          "title": "bad",
+          "value": "bad"
+        },
+        {
+          "title": "good",
+          "value": "good"
+        }
+      ],
+      "markdown$de": true,
+      "typing$de": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:37:36.456Z",
+    "modifiedOn": "2020-07-02T14:16:36.074Z"
+  },
+  {
+    "id": "builtin_single-choice-hAuvVq",
+    "formData": {
+      "choices$de": [
+        {
+          "title": "no",
+          "value": "no"
+        },
+        {
+          "title": "yes",
+          "value": "yes"
+        }
+      ],
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Feeling better now?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:48:12.266Z",
+    "modifiedOn": "2020-07-02T14:14:36.451Z"
+  }
+]

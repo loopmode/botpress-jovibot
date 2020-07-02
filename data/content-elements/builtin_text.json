@@ -1,0 +1,88 @@
+[
+  {
+    "id": "builtin_text-V5sVQW",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Well alright then! So long and have a good day!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:39:59.641Z",
+    "modifiedOn": "2020-07-02T14:12:32.665Z"
+  },
+  {
+    "id": "builtin_text-ReHkLM",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Hmm... What can we do about that?",
+      "variations$de": [
+        "Let's see if we can change that..",
+        "Hm. We should do something about that.",
+        "Well that's not good, we need to change that!"
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:40:35.625Z",
+    "modifiedOn": "2020-07-02T14:13:21.050Z"
+  },
+  {
+    "id": "builtin_text-aEqEAd",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Hat das geholfen? Geht's jetzt besser?"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:44:04.022Z",
+    "modifiedOn": "2020-07-02T12:46:59.668Z"
+  },
+  {
+    "id": "builtin_text-N886l2",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "<img src=\"https://media.giphy.com/media/wW95fEq09hOI8/source.gif\" width=\"75%\" />"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T12:47:33.628Z",
+    "modifiedOn": "2020-07-02T12:47:33.628Z"
+  },
+  {
+    "id": "builtin_text-3yzibk",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Super!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T13:12:29.865Z",
+    "modifiedOn": "2020-07-02T13:12:29.865Z"
+  },
+  {
+    "id": "builtin_text-du4502",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Alright, how about this..",
+      "variations$de": [
+        "Okay, let's try this one:",
+        "You don't make it easy on me, do you? What about this.."
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T13:16:51.763Z",
+    "modifiedOn": "2020-07-02T14:14:13.192Z"
+  },
+  {
+    "id": "builtin_text-Cxpu3x",
+    "formData": {
+      "markdown$de": true,
+      "typing$de": true,
+      "text$de": "Hey. I'm Jovibot, and my goal is to make you smile.<br />\n<br/>\nSo let's get started!"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-07-02T13:29:21.691Z",
+    "modifiedOn": "2020-07-02T14:11:46.632Z"
+  }
+]

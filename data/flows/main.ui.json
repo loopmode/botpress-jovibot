@@ -1,0 +1,205 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": 155,
+        "y": 20
+      }
+    },
+    {
+      "id": "2f8be847d3",
+      "position": {
+        "x": 1070,
+        "y": 565
+      }
+    },
+    {
+      "id": "aa60284e8b",
+      "position": {
+        "x": 500,
+        "y": 40
+      }
+    },
+    {
+      "id": "skill-8549fd",
+      "position": {
+        "x": 50,
+        "y": 195
+      }
+    },
+    {
+      "id": "562523cf60",
+      "position": {
+        "x": 695,
+        "y": 210
+      }
+    },
+    {
+      "id": "skill-428778",
+      "position": {
+        "x": 890,
+        "y": 345
+      }
+    },
+    {
+      "id": "a6a2d7eb00",
+      "position": {
+        "x": 885,
+        "y": 40
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "562523cf60",
+      "sourcePort": "out0",
+      "target": "skill-428778",
+      "points": [
+        {
+          "x": 901,
+          "y": 266
+        },
+        {
+          "x": 990,
+          "y": 338
+        }
+      ]
+    },
+    {
+      "source": "a6a2d7eb00",
+      "sourcePort": "out0",
+      "target": "562523cf60",
+      "points": [
+        {
+          "x": 1091,
+          "y": 111
+        },
+        {
+          "x": 795,
+          "y": 203
+        }
+      ]
+    },
+    {
+      "source": "aa60284e8b",
+      "sourcePort": "out0",
+      "target": "562523cf60",
+      "points": [
+        {
+          "x": 706,
+          "y": 111
+        },
+        {
+          "x": 795,
+          "y": 203
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "skill-8549fd",
+      "points": [
+        {
+          "x": 361,
+          "y": 121
+        },
+        {
+          "x": 149,
+          "y": 188
+        }
+      ]
+    },
+    {
+      "source": "skill-428778",
+      "sourcePort": "out1",
+      "target": "2f8be847d3",
+      "points": [
+        {
+          "x": 1096,
+          "y": 417
+        },
+        {
+          "x": 1169,
+          "y": 558
+        }
+      ]
+    },
+    {
+      "source": "skill-428778",
+      "sourcePort": "out0",
+      "target": "a6a2d7eb00",
+      "points": [
+        {
+          "x": 1096,
+          "y": 395
+        },
+        {
+          "x": 984,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "source": "skill-428778",
+      "sourcePort": "out2",
+      "target": "entry",
+      "points": [
+        {
+          "x": 1096,
+          "y": 439
+        },
+        {
+          "x": 254,
+          "y": 13
+        }
+      ]
+    },
+    {
+      "source": "skill-8549fd",
+      "sourcePort": "out1",
+      "target": "2f8be847d3",
+      "points": [
+        {
+          "x": 256,
+          "y": 267
+        },
+        {
+          "x": 1169,
+          "y": 558
+        }
+      ]
+    },
+    {
+      "source": "skill-8549fd",
+      "sourcePort": "out0",
+      "target": "aa60284e8b",
+      "points": [
+        {
+          "x": 256,
+          "y": 245
+        },
+        {
+          "x": 599,
+          "y": 33
+        }
+      ]
+    },
+    {
+      "source": "skill-8549fd",
+      "sourcePort": "out2",
+      "target": "entry",
+      "points": [
+        {
+          "x": 256,
+          "y": 289
+        },
+        {
+          "x": 254,
+          "y": 13
+        }
+      ]
+    }
+  ]
+}
